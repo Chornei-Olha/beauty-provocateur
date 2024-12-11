@@ -4,7 +4,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
-const basePath = process.env.REACT_APP_BASE_PATH || "/";
+// const basePath = process.env.REACT_APP_BASE_PATH || "/";
 
 // Ленивая загрузка страниц
 const LazyHome = lazy(() => import("./pages/Home/Home"));
@@ -14,7 +14,7 @@ const LazyPrice = lazy(() => import("./pages/Price/Price"));
 
 const App = () => {
   return (
-    <BrowserRouter basename={basePath}>
+    <BrowserRouter>
       <Suspense fallback={<div>Loading...</div>}>
         <ScrollToTop />
         <Layout>
