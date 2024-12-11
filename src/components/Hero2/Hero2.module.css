@@ -1,0 +1,106 @@
+.hero {
+  position: relative;
+  background: #00000080;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: #fff;
+  height: 900px;
+  padding-left: 60px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000080;
+  z-index: 1;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main_title,
+.title,
+.text,
+.button,
+.breadcrumbs {
+  position: relative;
+  z-index: 2;
+}
+
+.breadcrumbs {
+  position: absolute;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  display: flex;
+  gap: 8px;
+  top: 573px;
+  left: 60px;
+  text-transform: uppercase;
+}
+
+.main_title {
+  position: absolute;
+  width: 50%;
+  top: 700px;
+  right: 0;
+}
+
+.Beauty {
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  font-family: "Manrope";
+  font-size: 74px;
+  font-weight: 200;
+  line-height: 81.4px;
+  text-align: left;
+  color: #fff;
+  top: 624px;
+  text-transform: uppercase;
+}
+
+/* .text {
+  position: absolute;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 25.92px;
+  text-align: left;
+  color: #fff;
+  top: 708px;
+} */
+
+/* .button {
+  position: absolute;
+  padding: 13px 61.5px;
+  background-color: #090909;
+  color: #fff;
+  border: none;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 14.4px;
+  text-align: center;
+  cursor: pointer;
+  top: 794px;
+}
+
+.button:hover {
+  background: #837ba68a;
+  color: #fff;
+} */

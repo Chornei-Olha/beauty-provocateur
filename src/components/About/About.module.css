@@ -1,0 +1,167 @@
+@media (max-width: 767px) {
+  .about {
+    margin-top: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .about {
+    margin-top: 81px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767px) {
+  .content:first-of-type {
+    margin-bottom: 24px;
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 768px) {
+  .content:first-of-type {
+    margin-bottom: 186px;
+  }
+}
+@media (max-width: 767px) {
+  .container .content:nth-of-type(2) {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+    flex: 1;
+    max-width: 356px;
+  }
+}
+@media (min-width: 768px) {
+  .text {
+    flex: 1;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 27px;
+    text-align: left;
+    color: #090909;
+    margin-top: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    font-family: "Manrope";
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 40px;
+    text-align: left;
+    color: #090909;
+  }
+}
+
+@media (max-width: 767px) {
+  .paragraph {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 23.94px;
+    text-align: left;
+    margin-top: 24px;
+    color: #090909;
+  }
+}
+@media (min-width: 768px) {
+  .paragraph {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 23.94px;
+    text-align: left;
+    margin-top: 34px;
+    color: #090909;
+  }
+}
+
+.imageWrapper {
+  flex: 1;
+  max-width: 650px;
+}
+
+.image {
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #4d3d3133;
+}
+
+@media (max-width: 767px) {
+  .statNumber {
+    font-family: "Inter";
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 40px;
+    text-align: left;
+    color: #090909;
+    min-width: 70px;
+  }
+}
+@media (min-width: 768px) {
+  .statNumber {
+    font-family: "Inter";
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 64px;
+    text-align: left;
+    color: #090909;
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 767px) {
+  .statText {
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 19.92px;
+    text-align: left;
+    color: #090909;
+  }
+}
+@media (min-width: 768px) {
+  .statText {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 23.94px;
+    text-align: left;
+    color: #090909;
+  }
+}

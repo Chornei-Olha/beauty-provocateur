@@ -1,0 +1,217 @@
+@media (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 150px;
+    margin-right: 43.5px;
+    margin-left: 43.5px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 166px;
+    margin-right: 43.5px;
+    margin-left: 43.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .formWrapper {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .formWrapper {
+    flex: 1;
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 767px) {
+  .imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    order: 2;
+  }
+}
+@media (min-width: 768px) {
+  .imageWrapper {
+    /* flex: 0 0 400px; */
+    flex: 1;
+    max-width: 561px;
+  }
+}
+
+.image {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .title {
+    order: 1;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 26.4px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #090909;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 80px;
+    font-weight: 200;
+    line-height: 88px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090909;
+  }
+}
+
+@media (max-width: 767px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .formGroup {
+    margin-bottom: 26px;
+    flex: 1;
+  }
+}
+@media (min-width: 768px) {
+  .formGroup {
+    margin-bottom: 26px;
+    flex: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  input,
+  textarea {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #c5c2be;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 19.12px;
+    text-align: left;
+    color: #090909;
+    background-color: transparent;
+  }
+}
+@media (min-width: 768px) {
+  input,
+  textarea {
+    width: 100%;
+    height: 95px;
+    border: none;
+    border-bottom: 1px solid #c5c2be;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24.59px;
+    text-align: left;
+    color: #090909;
+    background-color: transparent;
+  }
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #c5c2be;
+  font-family: "Manrope";
+  font-size: 18px;
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  textarea {
+    resize: none;
+  }
+}
+@media (min-width: 768px) {
+  textarea {
+    resize: none;
+    height: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .submitButton {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    width: 100%;
+    background: #4d3d31;
+    color: white;
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 14.4px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .submitButton {
+    padding: 13px 67px;
+    background: #4d3d31;
+    color: white;
+    border: none;
+    max-width: 200px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 14.4px;
+    text-align: center;
+  }
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+}
+
+.submitButton:hover {
+  background: #837ba68a;
+  color: #fff;
+}
+
+.success {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}

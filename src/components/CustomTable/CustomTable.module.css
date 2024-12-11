@@ -1,0 +1,149 @@
+@media (max-width: 767px) {
+  .price {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .price {
+    margin-top: 79.1px;
+  }
+}
+
+@media (max-width: 767px) {
+  .customTable {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) {
+  .customTable {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .title {
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 29.28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090909;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 48.8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090909;
+    margin-bottom: 53px;
+  }
+}
+
+.imageContainer {
+  width: 100%; /* Ширина контейнера */
+  height: 154px; /* Высота контейнера */
+  overflow: hidden; /* Обрезка лишних частей изображения */
+  position: relative;
+  margin-bottom: 53px;
+}
+
+.imageContainer img {
+  width: 100%; /* Ширина изображения на 100% */
+  height: 100%; /* Высота изображения будет равна высоте контейнера */
+  object-fit: cover; /* Сохраняем пропорции, изображение обрезается */
+  object-position: center center; /* Центрируем изображение по горизонтали и вертикали */
+}
+
+.tableRow {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .tableCell {
+    padding: 10px 8px;
+    border: 0.5px solid #4d3d3133;
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 12px;
+    text-align: left;
+    flex: 1;
+    transition: background-color 0.3s ease;
+    overflow-wrap: break-word;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) {
+  .tableCell {
+    padding: 20px 16px;
+    border: 0.5px solid #4d3d3133;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 14px;
+    text-align: left;
+    text-transform: uppercase;
+    flex: 1;
+    transition: background-color 0.3s ease;
+  }
+}
+
+.newStyle {
+  font-size: 18px;
+  line-height: 18px;
+  border-top: "none";
+  border-left: "none";
+  border-right: "none";
+}
+
+@media (max-width: 767px) {
+  .tableRow > .tableCell:not(:last-child):nth-child(1) {
+    margin-right: 7px; /* Расстояние между первым и вторым столбиком */
+  }
+}
+@media (min-width: 768px) {
+  .tableRow > .tableCell:not(:last-child):nth-child(1) {
+    margin-right: 31px; /* Расстояние между первым и вторым столбиком */
+  }
+}
+
+.noBorder {
+  border: none;
+}
+
+.highlight:hover {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .highlight {
+    font-size: 14px;
+    line-height: 14px;
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) {
+  .highlight {
+    font-size: 18px;
+    line-height: 18px;
+    border-left: none;
+    border-right: none;
+  }
+}
+.highlight:hover,
+.highlight:active {
+  background-color: #4d3d31;
+  cursor: pointer;
+}

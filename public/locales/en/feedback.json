@@ -1,0 +1,11 @@
+{
+  "title1": "Reverse",
+  "title2": "connection",
+  "button": "Send",
+  "send": "Message sent!",
+  "error": "Error. Try again.",
+  "firstName": "FIRST NAME",
+  "lastName": "LAST NAME",
+  "sms": "YOUR MESSAGE",
+  "sending": "Sending..."
+}

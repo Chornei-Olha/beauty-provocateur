@@ -1,0 +1,171 @@
+@media (max-width: 767px) {
+  .hero {
+    position: relative;
+    background: #00000080;
+    width: 100%;
+    background-image: url("../../assets/images/backgroundSmall.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    height: 730px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    position: relative;
+    background: #00000080;
+    width: 100%;
+    background-image: url("../../assets/images/background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: #fff;
+    height: 900px;
+    padding-left: 60px;
+  }
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000080;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.main_title,
+.title,
+.text,
+.button {
+  position: relative;
+  z-index: 2;
+}
+
+.main_title {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .Beauty {
+    display: none;
+  }
+}
+.Beauty {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .title {
+    position: absolute;
+    width: 100%;
+    font-family: "Manrope";
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 38px;
+    text-align: left;
+    color: #fff;
+    top: 400px;
+    padding-left: 22.5px;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    position: absolute;
+    font-family: "Manrope";
+    font-size: 74px;
+    font-weight: 200;
+    line-height: 81.4px;
+    text-align: left;
+    color: #fff;
+    top: 530px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 25.92px;
+    text-align: left;
+    text-align: left;
+    color: #fff;
+    padding-left: 22.5px;
+    top: 490px;
+  }
+}
+@media (min-width: 768px) {
+  .text {
+    position: absolute;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 25.92px;
+    text-align: left;
+    color: #fff;
+    top: 708px;
+  }
+}
+
+@media (max-width: 767px) {
+  .button {
+    position: absolute;
+    padding: 13px 69px;
+    background-color: #090909;
+    color: #fff;
+    border: none;
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 14.4px;
+    text-align: center;
+    cursor: pointer;
+    top: 616px;
+    width: 220px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 768px) {
+  .button {
+    position: absolute;
+    padding: 13px 61.5px;
+    background-color: #090909;
+    color: #fff;
+    border: none;
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 14.4px;
+    text-align: center;
+    cursor: pointer;
+    top: 794px;
+  }
+}
+
+.button:hover {
+  background: #837ba68a;
+  color: #fff;
+}

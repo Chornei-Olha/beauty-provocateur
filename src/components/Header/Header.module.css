@@ -1,0 +1,279 @@
+/* Общие стили */
+.header {
+  width: 100%;
+  background: #090909;
+  padding: 14px 30px 14px 60px;
+  position: relative; /* Для позиционирования дочерних элементов */
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .header {
+    width: 100%;
+    background: #090909;
+    padding: 14px 30px;
+    position: relative; /* Для позиционирования дочерних элементов */
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+  }
+}
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Кнопка гамбургера для мобильного меню */
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Навигация */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+.nav.open {
+  flex-direction: column;
+  background-color: #090909;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  gap: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Manrope";
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.nav .button {
+  background-color: #fff;
+  color: #090909;
+  padding: 13px 61px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  text-transform: uppercase;
+  font-family: "Manrope";
+  font-family: 12px;
+  line-height: 14.4px;
+  font-weight: 200;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.nav .button:hover {
+  background: #837ba68a;
+  color: #fff;
+}
+
+/* Языковой переключатель */
+.languageSwitcher {
+  position: relative;
+  z-index: 101; /* Поверх остальных элементов */
+}
+
+.currentLanguage {
+  font-family: "Manrope";
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 30px;
+}
+@media (max-width: 767px) {
+  .currentLanguage {
+    font-family: "Manrope";
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 12px;
+    right: 40px;
+  }
+}
+
+.arrow {
+  font-size: 12px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 101;
+  width: 70px;
+}
+
+.dropdown li {
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #f0f0f0;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dropdown li:hover {
+  background-color: #837ba68a;
+}
+
+/* Дополнительное меню на десктопе */
+.extraMenuBar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  padding: 10px;
+}
+
+.extraMenuButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.extraMenuButton:hover {
+  color: #837ba68a;
+}
+
+.extraDropdown {
+  width: 150px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.extraMenuBar.active .extraDropdown {
+  display: block;
+}
+
+.extraDropdown a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #090909;
+}
+
+.extraDropdown a:hover {
+  background: #f0f0f0;
+}
+
+.nav.open .extraMenuItem {
+  font-family: "Manrope";
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+/* Мобильные стили */
+@media (max-width: 767px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .extraMenuBar {
+    display: none; /* Скрыть дополнительное меню */
+  }
+
+  /* Языковой переключатель в мобильной версии */
+  .languageSwitcher {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    z-index: 101;
+  }
+
+  .dropdown {
+    left: auto;
+    right: 0;
+  }
+
+  .nav.open .extraMenuItem {
+    display: block; /* Показываем дополнительные пункты в мобильном меню */
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .nav.open {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background: none;
+  }
+
+  /* Дополнительное меню на десктопе */
+  .extraMenuBar.active .extraDropdown {
+    display: block;
+  }
+}

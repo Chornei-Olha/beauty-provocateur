@@ -1,0 +1,66 @@
+@media (max-width: 767px) {
+  .grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+      "vertical topRight middleRight"
+      "vertical topRight middleRight"
+      "vertical topRight middleRight"
+      "vertical topRight bottomRight"
+      "vertical bottomLeft bottomRight"
+      "vertical bottomLeft bottomRight"
+      "vertical bottomLeft bottomRight";
+    gap: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .grid {
+    margin-top: 188.72px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+      "vertical topRight middleRight"
+      "vertical topRight middleRight"
+      "vertical topRight middleRight"
+      "vertical topRight bottomRight"
+      "vertical bottomLeft bottomRight"
+      "vertical bottomLeft bottomRight"
+      "vertical bottomLeft bottomRight";
+    gap: 19px;
+  }
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+.vertical {
+  grid-area: vertical; /* Первый столбик, все строки */
+}
+
+.topRight {
+  grid-area: topRight; /* Второй столбик, 4 верхние строки */
+}
+
+.middleRight {
+  grid-area: middleRight; /* Третий столбик, 3 верхние строки */
+}
+
+.bottomLeft {
+  grid-area: bottomLeft; /* Второй столбик, строки 5–7 */
+}
+
+.bottomRight {
+  grid-area: bottomRight; /* Третий столбик, строки 4–7 (увеличена) */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

@@ -1,0 +1,169 @@
+@media (max-width: 767px) {
+  .hero {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    height: 500px;
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    height: 500px;
+    padding-left: 40px;
+  }
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000080;
+  z-index: 1;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title,
+.text,
+.arrow,
+.button,
+.breadcrumbs {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .breadcrumbs {
+    position: absolute;
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    display: flex;
+    gap: 8px;
+    top: 92px;
+    left: 20px;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) {
+  .breadcrumbs {
+    position: absolute;
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    display: flex;
+    gap: 8px;
+    top: 92px;
+    left: 60px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 767px) {
+  .title {
+    position: absolute;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 48.8px;
+    text-align: center;
+    color: #fff;
+    top: 200px;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    position: absolute;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 48.8px;
+    text-align: center;
+    color: #fff;
+    top: 272px;
+    text-transform: uppercase;
+  }
+}
+
+.text {
+  position: absolute;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 25.92px;
+  text-align: center;
+  color: #fff;
+  top: 344px;
+}
+
+@media (max-width: 767px) {
+  .flexArrow {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .flexArrow {
+    position: absolute;
+    display: flex;
+    gap: 16px;
+    top: 272px;
+    left: 60px;
+  }
+}
+
+.arrow {
+  color: #fff;
+  border-radius: 50%;
+  padding: 14.67px;
+  background: #ffffff1a;
+  cursor: pointer;
+}
+
+.button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 14px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.arrow:hover {
+  background: #837ba68a;
+  color: #fff;
+}
+
+.button:hover {
+  color: #837ba68a;
+}

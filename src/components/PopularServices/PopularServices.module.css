@@ -1,0 +1,220 @@
+@media (max-width: 767px) {
+  .popularServices {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .popularServices {
+    margin-top: 248.5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .title {
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 24.28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090909;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 48.8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090909;
+  }
+}
+
+@media (max-width: 767px) {
+  .sliderWrapper {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+}
+@media (min-width: 768px) {
+  .sliderWrapper {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 56px;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider {
+    display: flex;
+    gap: 16px;
+    transition: transform 0.3s ease;
+    scroll-behavior: smooth;
+    will-change: transform;
+    overflow-x: auto;
+  }
+}
+@media (min-width: 768px) {
+  .slider {
+    display: flex;
+    gap: 24px;
+    transition: transform 0.3s ease;
+    scroll-behavior: smooth;
+    will-change: transform;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    flex: 0 0 auto;
+    width: 190.66px;
+    border: none;
+    padding: 12px 12px 0px 12px;
+    text-align: center;
+    background: #ffffff66;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    flex: 0 0 auto;
+    width: 360px;
+    border: none;
+    padding: 16px 16px 25px 16px;
+    text-align: center;
+    background: #ffffff66;
+  }
+}
+
+@media (max-width: 767px) {
+  .image {
+    margin-top: 13.73px;
+    width: 100%;
+    height: 249px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 768px) {
+  .image {
+    margin-top: 40px;
+    width: 100%;
+    height: 436px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .cardTitle {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) {
+  .cardTitle {
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 767px) {
+  .button {
+    margin-top: 56.27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #090909;
+    color: #fff;
+    border: none;
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 14.4px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) {
+  .button {
+    margin-top: 24px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    width: 100%;
+    background-color: #090909;
+    color: #fff;
+    border: none;
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 14.4px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+}
+
+.button:hover {
+  background: #837ba68a;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 32px;
+  }
+}
+@media (min-width: 768px) {
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .control {
+    background: transparent;
+    border: 1px solid #c5c2be;
+    color: #c5c2be;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 768px) {
+  .control {
+    background: transparent;
+    border: 1px solid #c5c2be;
+    color: #c5c2be;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+  }
+}
+
+.control:hover {
+  border: 1px solid #4d3d31;
+  color: #4d3d31;
+}
