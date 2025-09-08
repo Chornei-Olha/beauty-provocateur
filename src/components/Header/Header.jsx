@@ -70,6 +70,7 @@ const Header = () => {
           <a href="https://n1309009.alteg.io/" rel="noopener noreferrer">
             <button className={styles.button}>{t("button")}</button>
           </a>
+
           {/* Дополнительное меню для мобильных */}
           {isMenuOpen && (
             <>
