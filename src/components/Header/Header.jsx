@@ -67,9 +67,10 @@ const Header = () => {
           <a href="tel:+1234567890" className={styles.phone}>
             +1 847 87 46 333
           </a>
-          <a href="https://n1309009.alteg.io/" rel="noopener noreferrer">
+          {/* <a href="https://n1309009.alteg.io/" rel="noopener noreferrer">
             <button className={styles.button}>{t("button")}</button>
-          </a>
+          </a> */}
+          <button className={styles.button}>{t("button")}</button>
 
           {/* Дополнительное меню для мобильных */}
           {isMenuOpen && (
