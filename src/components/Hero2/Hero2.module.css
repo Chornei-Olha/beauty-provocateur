@@ -1,14 +1,30 @@
-.hero {
-  position: relative;
-  background: #00000080;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: left;
-  color: #fff;
-  height: 900px;
-  padding-left: 60px;
+@media (max-width: 767px) {
+  .hero {
+    position: relative;
+    background: #00000080;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: #fff;
+    height: 700px;
+    padding-left: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    position: relative;
+    background: #00000080;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: #fff;
+    height: 900px;
+    padding-left: 60px;
+  }
 }
 
 .hero::before {
@@ -37,18 +53,35 @@
   z-index: 2;
 }
 
-.breadcrumbs {
-  position: absolute;
-  font-family: "Manrope";
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  color: #fff;
-  display: flex;
-  gap: 8px;
-  top: 573px;
-  left: 60px;
-  text-transform: uppercase;
+@media (max-width: 767px) {
+  .breadcrumbs {
+    position: absolute;
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    display: flex;
+    gap: 8px;
+    top: 92px;
+    left: 20px;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) {
+  .breadcrumbs {
+    position: absolute;
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    display: flex;
+    gap: 8px;
+    top: 573px;
+    left: 60px;
+    text-transform: uppercase;
+  }
 }
 
 .main_title {
@@ -62,16 +95,31 @@
   width: 100%;
 }
 
-.title {
-  position: absolute;
-  font-family: "Manrope";
-  font-size: 74px;
-  font-weight: 200;
-  line-height: 81.4px;
-  text-align: left;
-  color: #fff;
-  top: 624px;
-  text-transform: uppercase;
+@media (max-width: 767px) {
+  .title {
+    position: absolute;
+    font-family: "Manrope";
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 48.8px;
+    text-align: left;
+    color: #fff;
+    top: 400px;
+    text-transform: uppercase;
+  }
+}
+@media (min-width: 768px) {
+  .title {
+    position: absolute;
+    font-family: "Manrope";
+    font-size: 74px;
+    font-weight: 200;
+    line-height: 81.4px;
+    text-align: left;
+    color: #fff;
+    top: 624px;
+    text-transform: uppercase;
+  }
 }
 
 /* .text {

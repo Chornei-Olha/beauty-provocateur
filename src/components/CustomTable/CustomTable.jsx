@@ -20,7 +20,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
           id: "full-body-massage",
         },
@@ -29,7 +30,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -46,14 +48,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -115,7 +117,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
         },
         id: "brows",
       },
@@ -123,7 +126,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -140,14 +144,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -210,34 +214,41 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "lashes",
       },
       {
-        content: " ",
+        content: "",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
     ],
     [
-      { content: "", noBorder: true },
+      {
+        content: t("14"),
+        noBorder: true,
+        customClass: "highlight",
+        targetId: "hydrafacial",
+      },
       {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -259,7 +270,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "lash-extensions",
@@ -268,7 +280,8 @@ const CustomTable = () => {
         content: "",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -279,14 +292,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -323,7 +336,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "facial-treatment",
@@ -332,7 +346,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -343,14 +358,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -432,7 +447,9 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
+          color: "#fff",
           borderRight: "none",
         },
         id: "chemical-peel",
@@ -441,7 +458,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -452,14 +470,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -506,7 +524,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "wax",
@@ -515,7 +534,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -526,14 +546,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -610,7 +630,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "haircut-color-style",
@@ -619,7 +640,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -630,14 +652,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -734,7 +756,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "tattoo",
@@ -743,7 +766,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -754,14 +778,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -788,7 +812,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "permanent",
@@ -797,7 +822,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -808,14 +834,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -852,7 +878,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "make-up",
@@ -861,7 +888,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -872,14 +900,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -916,7 +944,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "manicure",
@@ -925,7 +954,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -936,14 +966,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -1005,7 +1035,8 @@ const CustomTable = () => {
         customStyle: {
           fontSize: "18px",
           lineHeight: "18px",
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderRight: "none",
         },
         id: "pedicure",
@@ -1014,7 +1045,8 @@ const CustomTable = () => {
         content: " ",
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D3133",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
           borderLeft: "none",
         },
       },
@@ -1025,14 +1057,14 @@ const CustomTable = () => {
         content: t("top1"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
       {
         content: t("top2"),
         noBorder: false,
         customStyle: {
-          backgroundColor: "#4D3D311A",
+          backgroundColor: "#fee080",
         },
       },
     ],
@@ -1075,6 +1107,79 @@ const CustomTable = () => {
       { content: "", noBorder: true },
       { content: t("13.8"), noBorder: false },
       { content: "$5", noBorder: false },
+    ],
+
+    [
+      { content: "", noBorder: true },
+      {
+        content: t("14"),
+        noBorder: false,
+        customStyle: {
+          fontSize: "18px",
+          lineHeight: "18px",
+          backgroundColor: "#4d3d31",
+          color: "#fff",
+          borderRight: "none",
+        },
+        id: "hydrafacial",
+      },
+      {
+        content: " ",
+        noBorder: false,
+        customStyle: {
+          backgroundColor: "#4d3d31",
+          color: "#fff",
+          borderLeft: "none",
+        },
+      },
+    ],
+    [
+      { content: "", noBorder: true },
+      {
+        content: t("top1"),
+        noBorder: false,
+        customStyle: {
+          backgroundColor: "#fee080",
+        },
+      },
+      {
+        content: t("top2"),
+        noBorder: false,
+        customStyle: {
+          backgroundColor: "#fee080",
+        },
+      },
+    ],
+
+    [
+      { content: "", noBorder: true },
+      { content: t("14.1"), noBorder: false },
+      { content: "$807.3", noBorder: false },
+    ],
+    [
+      { content: "", noBorder: true },
+      { content: t("14.2"), noBorder: false },
+      { content: "$675", noBorder: false },
+    ],
+    [
+      { content: "", noBorder: true },
+      { content: t("14.3"), noBorder: false },
+      { content: "$472.5", noBorder: false },
+    ],
+    [
+      { content: "", noBorder: true },
+      { content: t("14.4"), noBorder: false },
+      { content: "$299", noBorder: false },
+    ],
+    [
+      { content: "", noBorder: true },
+      { content: t("14.5"), noBorder: false },
+      { content: "$250", noBorder: false },
+    ],
+    [
+      { content: "", noBorder: true },
+      { content: t("14.6"), noBorder: false },
+      { content: "$175", noBorder: false },
     ],
   ];
 

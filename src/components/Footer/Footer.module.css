@@ -21,8 +21,8 @@
     max-width: 1440px;
     width: 100%;
     justify-content: space-between;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
     background: #f4f0eb;
     border-top: 1px solid #4d3d3133;
     margin: 0 auto;
@@ -207,9 +207,17 @@
 @media (min-width: 768px) {
   .list {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     gap: 100px;
     margin-top: 57px;
+    margin-right: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .links {
+    display: flex;
+    gap: 100px;
   }
 }
 

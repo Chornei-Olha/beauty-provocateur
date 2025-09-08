@@ -14,6 +14,7 @@
   "11": "Make Up",
   "12": "Manicure",
   "13": "Pedicure",
+  "14": "Hydrafacial",
   "top1": "Service",
   "top2": "Price",
 
@@ -123,5 +124,12 @@
   "13.5": "Men's pedicure",
   "13.6": "Japanese pedicure",
   "13.7": "Children's pedicure (up to 12 years old)",
-  "13.8": "Design"
+  "13.8": "Design",
+
+  "14.1": "Package Platinum (1h 30min)",
+  "14.2": "Package Deluxe (1h)",
+  "14.3": "Packages Signature (40min)",
+  "14.4": "The Platinum Hydrafacial Experience (1h 30min)",
+  "14.5": "The Deluxe Hydrafacial Experience (1h)",
+  "14.6": "The Signature Hydrafacial Experience (40min)"
 }

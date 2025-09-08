@@ -72,16 +72,10 @@ const Header = () => {
           {/* Дополнительное меню для мобильных */}
           {isMenuOpen && (
             <>
-              <Link
-                to="/preservation_of_youth"
-                className={styles.extraMenuItem}
-              >
-                {t("services")}
-              </Link>
               <Link to="/price" className={styles.extraMenuItem}>
                 {t("price")}
               </Link>
-              <Link to="/news" className={styles.extraMenuItem}>
+              <Link to="/blog" className={styles.extraMenuItem}>
                 {t("news")}
               </Link>
             </>
@@ -97,9 +91,8 @@ const Header = () => {
         >
           <button className={styles.extraMenuButton}>☰</button>
           <div className={styles.extraDropdown}>
-            <Link to="/preservation_of_youth">{t("adviсe")}</Link>
             <Link to="/price">{t("price")}</Link>
-            <Link to="/news">{t("news")}</Link>
+            <Link to="/blog">{t("news")}</Link>
           </div>
         </div>
       </div>

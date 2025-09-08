@@ -11,7 +11,7 @@ const Hero3 = () => {
   const navigate = useNavigate();
 
   const handleBackClick = () => {
-    navigate("/news");
+    navigate("/blog");
   };
   return (
     <section

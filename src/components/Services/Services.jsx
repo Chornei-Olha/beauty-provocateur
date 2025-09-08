@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 import styles from "./Services.module.css";
@@ -14,6 +15,7 @@ import service9 from "../../assets/images/pic11.webp";
 
 const Services = () => {
   const { t } = useTranslation("services");
+  const navigate = useNavigate();
 
   const services = [
     {
@@ -97,7 +99,9 @@ const Services = () => {
         ))}
       </div>
       <div className={styles.buttonWrapper}>
-        <button className={styles.button}>{t("button")}</button>
+        <button className={styles.button} onClick={() => navigate("/price")}>
+          {t("button")}
+        </button>
       </div>
     </section>
   );

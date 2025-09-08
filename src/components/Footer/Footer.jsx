@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+
 import styles from "./Footer.module.css";
 import Instagram from "../../assets/images/instagram.svg";
 import Facebook from "../../assets/images/facebook.svg";
@@ -32,7 +33,11 @@ const Footer = () => {
             <p className={styles.subscribe}>{t("subscribe")}</p>
             <button className={styles.button}>{t("button")}</button>
             <div className={styles.socials}>
-              <a href="https://instagram.com" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.instagram.com/beauty_provocateur_chicago?igsh=bnl1am53cDVwcmlp"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src={Instagram}
                   alt="Instagram"
@@ -52,19 +57,7 @@ const Footer = () => {
               <div className={styles.links}>
                 <button onClick={() => navigate("/price")}>{t("menu1")}</button>
                 <p>{t("menu2")}</p>
-                <p>{t("menu3")}</p>
-                <p>{t("menu5")}</p>
-              </div>
-              <div className={styles.links}>
-                <p className={styles.hideOnMobile}>{t("menu4")}</p>
-                <p className={styles.hideOnMobile}>{t("menu6")}</p>
-                <p className={styles.hideOnMobile}>{t("menu7")}</p>
-                <p className={styles.hideOnMobile}>{t("menu8")}</p>
-              </div>
-              <div className={styles.links}>
-                <p className={styles.hideOnMobile}>{t("menu9")}</p>
-                <p className={styles.hideOnMobile}>{t("menu10")}</p>
-                <p className={styles.hideOnMobile}>{t("menu11")}</p>
+                <button onClick={() => navigate("/blog")}>{t("menu3")}</button>
               </div>
             </div>
             <div className={styles.contactInfo}>

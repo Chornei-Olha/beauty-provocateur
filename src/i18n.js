@@ -14,7 +14,7 @@ i18n
       escapeValue: false, // Для React экранирование не нужно
     },
     backend: {
-      loadPath: "/locales/{{lng}}/{{ns}}.json", // Подгрузка по namespace
+      loadPath: "/locales/{{lng}}/{{ns}}.json", // Подгрузка файлов
     },
     ns: [
       "about",

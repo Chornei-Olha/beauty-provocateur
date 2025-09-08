@@ -55,7 +55,7 @@ const News = () => {
 
   const handleDetailsClick = (id: number) => {
     if (id === 2) {
-      navigate("/preservation_of_youth");
+      navigate("/news");
     }
   };
 
@@ -90,7 +90,7 @@ const News = () => {
         ))}
       </div>
       <div className={styles.buttonWrapper}>
-        <Link to="/news" className={styles.mainButton}>
+        <Link to="/blog" className={styles.mainButton}>
           {t("mainButton")}
         </Link>
       </div>
